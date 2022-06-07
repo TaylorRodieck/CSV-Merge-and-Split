@@ -20,7 +20,7 @@ namespace CSV_Merge
         static void Main(string[] args)
         {
             Console.WriteLine("Select First CSV File...");
-            Thread.Sleep(2000);
+            Thread.Sleep(750);
             OpenFileDialog oFD_1 = new OpenFileDialog();
             oFD_1.ShowDialog();
             string pathOne = Path.GetFullPath(oFD_1.FileName);
@@ -29,7 +29,7 @@ namespace CSV_Merge
             Console.WriteLine();
 
             Console.WriteLine("Select Second CSV File...");
-            Thread.Sleep(2000);
+            Thread.Sleep(750);
             OpenFileDialog oFD_2 = new OpenFileDialog();
             oFD_2.ShowDialog();
             string pathTwo = Path.GetFullPath(oFD_2.FileName);
